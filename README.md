@@ -34,34 +34,32 @@
 
 
 
-![1](.\dist\1.png)
-
 ```txt
 2. 选择答题卡图片目录.\test_images
 ```
 
-![image-20250820173937524](.\dist\2.png)
+![image-20250820173937524](https://github.com/403765727/Identify_answers_on_answer_sheet/blob/main/dist/2.png)
 
 ```txt
 3.输入yolo模型地址.\runs\detect\train10\weights\best.pt
 ```
 
-![image-20250820174245738](.\dist\3.png)
+![image-20250820174245738](https://github.com/403765727/Identify_answers_on_answer_sheet/blob/main/dist/3.png)
 
 ```txt
 4.设置行列和选项个数，框选选择题区域
 ```
 
-![image-20250820174417169](.\dist\4.png)
+![image-20250820174417169](https://github.com/403765727/Identify_answers_on_answer_sheet/blob/main/dist/4.png)
 
 ```txt
 5.预览查看结果
 ```
 
-![image-20250820174527776](.\dist\5.png)
+![image-20250820174527776](https://github.com/403765727/Identify_answers_on_answer_sheet/blob/main/dist/5.png)
 
 ```txt
 6.导出全部结果
 ```
 
-![image-20250820174650455](.\dist\6.png)
+![image-20250820174650455](https://github.com/403765727/Identify_answers_on_answer_sheet/blob/main/dist/6.png)
