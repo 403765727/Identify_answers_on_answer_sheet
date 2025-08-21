@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  web:
+    image: image_validity_detection:v1.0
+    restart: always
+    container_name: image_validity_detection
+    ports:
+      - 9200:5000
+    volumes:
+      - ./app:/home/app
+      - /mnt/work/tmp_img:/home/app/cache/tmp_img
+      - ./start.sh:/home/app/start.sh
+      - ./config.ini:/home/app/config.ini
+      - /mnt/work/pan/exam-service:/home/app/cache/
+      - /etc/localtime:/etc/localtime:ro
+      - /usr/share/zoneinfo:/usr/share/zoneinfo:ro
+      - /etc/hosts:/etc/hosts:ro
+    networks:
+      - commom-network
+networks:
+  commom-network:
+    external: true
