@@ -30,7 +30,7 @@
 .\dist\identify_paper.exe
 ```
 
-![12](https://github.com/403765727/Identify_answers_on_answer_sheet/blob/main "1")
+![12](https://github.com/403765727/Identify_answers_on_answer_sheet/blob/main/dist/1.png "1")
 
 
 
